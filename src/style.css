@@ -216,9 +216,11 @@ section{scroll-margin-top:calc(var(--navigation-height) + 20px)}
  .nav-mark{font-size:22px}
  .nav-links{gap:8px;font-size:10px}
  .hero{min-height:auto}
- .hero-copy{min-height:auto;padding-top:58px;padding-bottom:94px;align-items:flex-start}
+ .hero-copy{min-height:auto;padding-top:58px;padding-bottom:124px;align-items:flex-start}
  .hero-message{padding:0}
- .hero h1{font-size:clamp(52px,13vw,84px);line-height:1.02}
+ .hero-eyebrow{font-size:11px;letter-spacing:.1em;margin-bottom:28px}
+ .hero h1{font-size:clamp(58px,14.5vw,94px);line-height:1.01}
+ .hero-sub{font-size:21px;line-height:1.5;margin-top:28px}
  .hero-copy{padding-bottom:28px}
  .hero-copy{min-height:calc(100svh - var(--navigation-height))}
  .hero-copy{display:flex;gap:0;align-items:center}
@@ -226,7 +228,7 @@ section{scroll-margin-top:calc(var(--navigation-height) + 20px)}
  .hero-cherry{top:1%;left:5%;font-size:38px}
  .hero-chat{top:3%;right:7%;width:65px;height:42px}
  .hero-chat i{width:5px;height:5px}
- .hero-note{left:3%;bottom:6%;max-width:190px;font-size:7px;padding:9px 10px}
+ .hero-note{left:3%;bottom:2%;max-width:250px;width:57%;font-size:9px;line-height:1.35;padding:13px 15px}
  .service-story.section{padding-top:60px;padding-bottom:65px}
  .service-explanation{margin-top:25px}
  .service-explanation p{font-size:20px!important}
