@@ -250,3 +250,5 @@ section{scroll-margin-top:calc(var(--navigation-height) + 20px)}
 .project-image:hover .project-open,.project-image:focus-visible .project-open{background:var(--forest);color:var(--cream)}
 .project-image:focus-visible{outline:3px solid var(--forest);outline-offset:5px}
 @media(max-width:700px){.project-image .project-open{right:14px;bottom:14px;min-height:48px;font-size:20px;gap:24px;padding:8px 14px 8px 18px}}
+
+.about-copy .bio-link{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:4px}.about-copy .bio-link:hover{text-decoration-thickness:2px}

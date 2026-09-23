@@ -1,9 +1,11 @@
 export const links = {
   email: 'catalinacobap@gmail.com',
+  baileyscode: 'https://baileyscode.com',
   linkedin: 'https://www.linkedin.com/in/catalina-cobaleda-060650303/',
   upwork: 'https://www.upwork.com/freelancers/~01a71bea1473cd1a4d',
 };
 export const projects = [
+  { name: 'Wonder Wander', url: '/projects/wonderwander.pdf', image: 'wonderwander', imageExtension: 'png', imageWidth: 2902, imageHeight: 1742, format: 'pdf' },
   { name: 'Kai Custom Homes', url: 'https://kai-customhomes.com', image: 'kai' },
   { name: 'Estudio demo', url: 'https://catalinacobap.github.io/studio-project/', image: 'studio' },
   { name: 'Mae de Agua', url: 'https://www.maedeagua.com', image: 'mae' },
@@ -11,7 +13,6 @@ export const projects = [
   { name: 'Mae de Agua PRO', url: 'https://pro.maedeagua.com', image: 'mae-pro' },
   { name: 'Costa Rica Descents', url: 'https://costaricadescents.com', image: 'descents' },
   { name: "Ester’s Place", url: 'https://estersplace.com', image: 'esters' },
-  { name: 'Baileyscode', url: 'https://baileyscode.com', image: 'baileys' },
 ];
 export const reviews = [
   "Catalina performed top quality work helping me build and develop a WordPress website using Elementor. She knows WordPress thoroughly and could handle any technical request I asked with daily communication. I'll definitely be hiring her again.",
@@ -29,8 +30,9 @@ export const content = {
   signature: 'Diseñadora & desarrolladora',
   nav: ['Trabajo', 'Precios', 'Proceso', 'Sobre mí', 'Hablemos'],
   skip: 'Saltar al contenido', menu: 'Navegación principal', language: 'Seleccionar idioma',
-  work: 'Trabajo reciente', workSub: 'Proyectos en los que hice el diseño y el desarrollo.', visit: 'Ver sitio',
+  work: 'Trabajo reciente', workSub: 'Proyectos en los que hice el diseño y el desarrollo.', visit: 'Ver sitio', viewPdf: 'Ver PDF',
   projectCopy: [
+   ['Diseño web · PDF', 'Presentación del proyecto Wonder Wander.'],
    ['Construcción de casas a medida', 'Un constructor premium con una presencia a la altura.'],
    ['Pilates · Demo', 'Un sitio de demostración para un estudio de pilates, con planes y horarios.'],
    ['Comunidad y bienestar', 'Una comunidad que conecta personas y experiencias alrededor del agua.'],
@@ -38,7 +40,6 @@ export const content = {
    ['Profesionales del agua', 'Una plataforma para descubrir instructores, guías y referentes del agua.'],
    ['Turismo', 'Un catálogo grande de tours, organizado para explorar fácilmente.'],
    ['Hospitalidad', 'Un hospedaje bilingüe con una presencia en línea completa.'],
-   ['Estudio web · Cofundadora', 'Un estudio web costarricense para turismo y hospitalidad.'],
   ],
   reviews: 'Lo que dicen los clientes', reviewsNote: 'Reseñas originales en inglés', reviewer: 'Cliente en Upwork', reviewService: 'Sitio web y diseño UI/UX', upwork: 'Ver perfil en Upwork',
   audience: 'Con quién trabajo',
@@ -123,8 +124,9 @@ export const content = {
   cta: 'Tell me about your project', signature: 'Designer & developer',
   nav: ['Work', 'Pricing', 'Process', 'About', 'Let’s talk'],
   skip: 'Skip to content', menu: 'Main navigation', language: 'Select language',
-  work: 'Recent work', workSub: 'Projects where I did the design and development.', visit: 'View website',
+  work: 'Recent work', workSub: 'Projects where I did the design and development.', visit: 'View website', viewPdf: 'View PDF',
   projectCopy: [
+   ['Web design · PDF', 'Wonder Wander project presentation.'],
    ['Custom home building', 'A premium custom home builder with a presence to match.'],
    ['Pilates · Demo', 'A demo website for a Pilates studio, with plans and schedules.'],
    ['Community and wellness', 'A community connecting people and experiences around water.'],
@@ -132,7 +134,6 @@ export const content = {
    ['Water professionals', 'A platform to discover water sports instructors, guides, and community leaders.'],
    ['Tourism', 'A large tour catalog, organized for easy discovery.'],
    ['Hospitality', 'A bilingual guesthouse with a complete online presence.'],
-   ['Web studio · Co-founder', 'A Costa Rican web studio for tourism and hospitality.'],
   ],
   reviews: 'What clients say', reviewsNote: 'Client reviews', reviewer: 'Client on Upwork', reviewService: 'Website and UI/UX design', upwork: 'View Upwork profile',
   audience: 'Who I work with',

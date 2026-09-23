@@ -36,7 +36,7 @@ export function structuredData({ page = '', language = 'es', pageInfo, personEma
       serviceType: ['New website', 'Full website redesign', 'Website maintenance'],
       availableLanguage: ['Spanish', 'English'],
       email: `mailto:${personEmail}`,
-      sameAs: projects.map(project => project.url),
+      sameAs: projects.map(project => new URL(project.url, siteUrl).href),
     }, {
       '@type': 'WebSite',
       '@id': `${siteUrl}/#website`,
