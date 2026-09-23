@@ -176,11 +176,11 @@ section{scroll-margin-top:calc(var(--navigation-height) + 20px)}
 .hero-copy{display:flex;position:relative;align-items:center;justify-content:center;text-align:center}
 .hero-message{width:min(1200px,100%);padding-left:0}
 .hero-ornament{position:absolute;inset:0;min-height:0;border:0;padding:0;pointer-events:none}
-.hero-cherry{font-size:clamp(42px,5vw,78px);position:absolute;top:4%;left:9%;transform:rotate(-12deg);filter:saturate(.8)}
+.hero-cherry{font-size:clamp(62px,7vw,112px);position:absolute;top:3%;left:8%;transform:rotate(-12deg);filter:saturate(.8)}
 .hero-chat{position:absolute;top:22%;right:13%;width:84px;height:52px;border:2px solid var(--forest);border-radius:46%;transform:rotate(8deg);display:flex;align-items:center;justify-content:center;gap:7px}
 .hero-chat:after{content:'';position:absolute;bottom:-10px;left:14px;width:15px;height:15px;border-left:2px solid var(--forest);transform:skew(-25deg) rotate(-14deg);background:var(--bone)}
 .hero-chat i{width:7px;height:7px;background:var(--forest);border-radius:50%;display:block}
-.hero-note{position:absolute;left:6%;bottom:22%;max-width:220px;padding:13px 16px;background:#c7d8b1;color:var(--forest);font-family:Arial,sans-serif;font-size:9px;line-height:1.35;letter-spacing:.12em;text-transform:uppercase;transform:rotate(-2deg)}
+.hero-note{position:absolute;left:5%;bottom:21%;max-width:300px;padding:17px 22px;background:#c7d8b1;color:var(--forest);font-family:Arial,sans-serif;font-size:11px;line-height:1.35;letter-spacing:.12em;text-transform:uppercase;transform:rotate(-2deg)}
 .hero h1{font-size:clamp(58px,7.2vw,128px);line-height:1.02;letter-spacing:-.075em;max-width:1050px}
 .hero h1 em{display:inline;position:relative;font-size:1em;z-index:0}
 .hero h1 em:before{content:'';position:absolute;z-index:-1;left:-.05em;right:-.04em;bottom:.08em;height:.28em;background:#c8d6a4;transform:rotate(-1.5deg)}
@@ -209,15 +209,17 @@ section{scroll-margin-top:calc(var(--navigation-height) + 20px)}
 .service-practical .editorial-list{margin-top:15px}
 .service-practical details p{margin-top:15px}
 @media(max-width:700px){
+ .editorial-statement h2{font-size:clamp(32px,8vw,50px);line-height:1.25}
+ .editorial-statement .text-link{font-size:20px}
  .hero h1{font-size:clamp(46px,11.5vw,74px);line-height:1.04}
  .hero-copy{padding-bottom:28px}
  .hero-copy{min-height:calc(100svh - var(--navigation-height))}
  .hero-copy{display:flex;gap:0;align-items:center}
  .hero-ornament{min-height:0;margin-top:0;padding:0;border:0;display:block}
- .hero-cherry{top:15%;left:9%;font-size:46px}
+ .hero-cherry{top:2%;left:5%;font-size:38px}
  .hero-chat{top:17%;right:9%;width:65px;height:42px}
  .hero-chat i{width:5px;height:5px}
- .hero-note{left:4%;bottom:14%;max-width:220px;font-size:8px;padding:11px 12px}
+ .hero-note{left:3%;bottom:2%;max-width:190px;font-size:7px;padding:9px 10px}
  .service-story.section{padding-top:60px;padding-bottom:65px}
  .service-explanation{margin-top:25px}
  .service-explanation p{font-size:20px!important}
