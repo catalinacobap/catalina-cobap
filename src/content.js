@@ -5,6 +5,10 @@ export const links = {
 };
 export const projects = [
   { name: 'Kai Custom Homes', url: 'https://kai-customhomes.com', image: 'kai' },
+  { name: 'Estudio demo', url: 'https://catalinacobap.github.io/studio-project/', image: 'studio' },
+  { name: 'Mae de Agua', url: 'https://www.maedeagua.com', image: 'mae' },
+  { name: 'Mae de Agua RED', url: 'https://red.maedeagua.com', image: 'mae-red' },
+  { name: 'Mae de Agua PRO', url: 'https://pro.maedeagua.com', image: 'mae-pro' },
   { name: 'Costa Rica Descents', url: 'https://costaricadescents.com', image: 'descents' },
   { name: "Ester’s Place", url: 'https://estersplace.com', image: 'esters' },
   { name: 'Baileyscode', url: 'https://baileyscode.com', image: 'baileys' },
@@ -28,6 +32,10 @@ export const content = {
   work: 'Trabajo reciente', workSub: 'Proyectos en los que hice el diseño y el desarrollo.', visit: 'Ver sitio',
   projectCopy: [
    ['Construcción de casas a medida', 'Un constructor premium con una presencia a la altura.'],
+   ['Pilates · Demo', 'Un sitio de demostración para un estudio de pilates, con planes y horarios.'],
+   ['Comunidad y bienestar', 'Una comunidad que conecta personas y experiencias alrededor del agua.'],
+   ['Red de aliados', 'Un directorio de espacios, marcas y beneficios para la comunidad Mae de Agua.'],
+   ['Profesionales del agua', 'Una plataforma para descubrir instructores, guías y referentes del agua.'],
    ['Turismo', 'Un catálogo grande de tours, organizado para explorar fácilmente.'],
    ['Hospitalidad', 'Un hospedaje bilingüe con una presencia en línea completa.'],
    ['Estudio web · Cofundadora', 'Un estudio web costarricense para turismo y hospitalidad.'],
@@ -118,6 +126,10 @@ export const content = {
   work: 'Recent work', workSub: 'Projects where I did the design and development.', visit: 'View website',
   projectCopy: [
    ['Custom home building', 'A premium custom home builder with a presence to match.'],
+   ['Pilates · Demo', 'A demo website for a Pilates studio, with plans and schedules.'],
+   ['Community and wellness', 'A community connecting people and experiences around water.'],
+   ['Partner network', 'A directory of spaces, brands, and benefits for the Mae de Agua community.'],
+   ['Water professionals', 'A platform to discover water sports instructors, guides, and community leaders.'],
    ['Tourism', 'A large tour catalog, organized for easy discovery.'],
    ['Hospitality', 'A bilingual guesthouse with a complete online presence.'],
    ['Web studio · Co-founder', 'A Costa Rican web studio for tourism and hospitality.'],

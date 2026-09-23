@@ -16,7 +16,7 @@ npm test
 
 `src/content.js` contiene las dos versiones del copy, precios, enlaces y proyectos. Español por defecto; `?lang=en` abre la versión inglesa. Los enlaces de navegación se traducen (`#contacto` / `#contact`, `#precios` / `#pricing`, etc.). Al cambiar de idioma se conservan los campos del formulario.
 
-No se incluyeron los datos pendientes entre corchetes: ni el plazo de respuesta de 24–48 horas ni el pago 50/50. El retrato se reutilizó del proyecto local de Baileyscode. Las cuatro imágenes de trabajo son capturas de los sitios públicos proporcionados. Fuentes Google Fonts: Prata, EB Garamond y Parisienne.
+No se incluyeron los datos pendientes entre corchetes: ni el plazo de respuesta de 24–48 horas ni el pago 50/50. El retrato se reutilizó del proyecto local de Baileyscode. Las ocho imágenes de trabajo son capturas de los sitios públicos proporcionados. Fuentes Google Fonts: Prata, EB Garamond y Parisienne.
 
 ## Contacto
 

@@ -45,8 +45,8 @@ function render() {
  ${isServicePage ? servicePage(t, short, page) : `<section class="editorial-statement section forest"><h2 class="reveal">${short.statement}</h2><a class="text-link" href="#${id('pricing')}">${short.viewServices}</a></section>
    <section class="work section bone" id="${id('work')}">
      <div class="section-heading reveal"><div>${kicker(0)}<h2>${t.work}</h2></div><p>${t.workSub}</p></div>
-     <div class="work-grid" aria-label="${t.work}">${projects.map((project, index) => `<article class="project"><a class="project-image" href="${project.url}" ${external} aria-label="${t.visit}: ${project.name}"><img src="/images/work-${project.image}.jpg" alt="${t.screenshot} ${project.name}" loading="lazy" width="1440" height="1050" /><span class="project-open">${t.visit}</span></a><div class="project-meta"><span class="project-number">${number(index + 1)}</span><div><p class="label">${t.projectCopy[index][0]}</p><h3><a href="${project.url}" ${external}>${project.name}</a></h3><a class="project-domain label" href="${project.url}" ${external}>${new URL(project.url).hostname}</a></div></div></article>`).join('')}</div>
-     <div class="work-controls"><button type="button" id="work-prev" aria-label="${t.prev}">${language === 'es' ? 'Anterior' : 'Previous'}</button><span class="label" id="work-count" aria-live="polite">01 / 04</span><button type="button" id="work-next" aria-label="${t.next}">${language === 'es' ? 'Siguiente' : 'Next'}</button></div>
+     <div class="work-grid" aria-label="${t.work}">${projects.map((project, index) => `<article class="project"><a class="project-image" href="${project.url}" ${external} aria-label="${t.visit}: ${project.name}"><img src="/images/work-${project.image}.jpg" alt="${t.screenshot} ${project.name}" loading="lazy" width="1440" height="1050" /><span class="project-open"><span>${t.visit}</span><span class="project-open-arrow" aria-hidden="true">↗</span></span></a><div class="project-meta"><span class="project-number">${number(index + 1)}</span><div><p class="label">${t.projectCopy[index][0]}</p><h3><a href="${project.url}" ${external}>${project.name}</a></h3><a class="project-domain label" href="${project.url}" ${external}>${new URL(project.url).hostname}</a></div></div></article>`).join('')}</div>
+     <div class="work-controls"><button type="button" id="work-prev" aria-label="${t.prev}">${language === 'es' ? 'Anterior' : 'Previous'}</button><span class="label" id="work-count" aria-live="polite">01 / ${number(projects.length)}</span><button type="button" id="work-next" aria-label="${t.next}">${language === 'es' ? 'Siguiente' : 'Next'}</button></div>
    </section>
    <section class="reviews section dark">
      <div class="section-heading reveal"><div>${kicker(1)}<h2>${t.reviews}</h2></div>${textLink(links.upwork, t.upwork, external)}</div>
@@ -122,7 +122,7 @@ function wireInteractions() {
  document.querySelector('#work-next').addEventListener('click', () => go(1));
  const updateGallery = () => {
   active = cards.reduce((best, card, index) => Math.abs(card.offsetLeft - cards[0].offsetLeft - gallery.scrollLeft) < Math.abs(cards[best].offsetLeft - cards[0].offsetLeft - gallery.scrollLeft) ? index : best, 0);
-  document.querySelector('#work-count').textContent = `${number(active+1)} / 04`;
+  document.querySelector('#work-count').textContent = `${number(active+1)} / ${number(cards.length)}`;
   document.querySelector('#work-prev').disabled = active === 0;
   document.querySelector('#work-next').disabled = active === cards.length - 1;
  };
