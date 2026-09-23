@@ -171,9 +171,9 @@ section{scroll-margin-top:calc(var(--navigation-height) + 20px)}
 }
 @media(max-width:360px){.navigation{padding-left:15px;padding-right:15px}.nav-mark{font-size:22px}.nav-links{gap:9px}.hero-copy{padding-left:20px;padding-right:20px}.hero h1{font-size:39px}.portrait-caption{padding-left:20px;padding-right:20px}}
 /* The entire hero contrasts with the following paper section, without caption strips. */
-.hero{background:var(--forest);color:var(--cream)}
+.hero{display:block;min-height:calc(100svh - var(--navigation-height));background:var(--forest);color:var(--cream)}
+.hero-copy{min-height:calc(100svh - var(--navigation-height));max-width:1500px}
 .hero-copy{padding-bottom:clamp(28px,5vh,65px)}
-.hero-photo img{object-position:center 32%}
 /* Service narrative precedes one starting price; whitespace replaces table rules. */
 .service-story.section{padding-top:95px;padding-bottom:100px}
 .service-reading{max-width:860px;margin:0 auto}
@@ -194,7 +194,7 @@ section{scroll-margin-top:calc(var(--navigation-height) + 20px)}
 .service-practical details p{margin-top:15px}
 @media(max-width:700px){
  .hero-copy{padding-bottom:28px}
- .hero-photo img{object-position:center 28%}
+ .hero-copy{min-height:calc(100svh - var(--navigation-height))}
  .service-story.section{padding-top:60px;padding-bottom:65px}
  .service-explanation{margin-top:25px}
  .service-explanation p{font-size:20px!important}

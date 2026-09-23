@@ -39,10 +39,7 @@ function render() {
  <a class="skip-link" href="#main">${t.skip}</a>
  ${navigation}
  ${isServicePage ? '' : ` <header class="hero" id="inicio">
-   <div class="hero-copy">
-     <div class="hero-message"><p class="label hero-eyebrow">${t.eyebrow}</p><h1>${short.hero}</h1><p class="hero-sub">${short.sub}</p><a class="outline-button" href="${pageUrl('custom-quote')}">${t.cta}</a></div>
-   </div>
-   <div class="hero-photo"><img src="/images/catalina.jpg" alt="${t.portrait}" fetchpriority="high" /></div>
+   <div class="hero-copy"><div class="hero-message"><p class="label hero-eyebrow">${t.eyebrow}</p><h1>${short.hero}</h1><p class="hero-sub">${short.sub}</p><a class="outline-button" href="${pageUrl('custom-quote')}">${t.cta}</a></div></div>
  </header>`}
  <main id="main">
  ${isServicePage ? servicePage(t, short, page) : `<section class="editorial-statement section bone"><h2 class="reveal">${short.statement}</h2><a class="text-link" href="#${id('pricing')}">${short.viewServices}</a></section>
