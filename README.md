@@ -46,7 +46,7 @@ Después del primer deploy de producción:
 1. Añade la URL pública como **Domain property** en [Google Search Console](https://search.google.com/search-console).
 2. Verifica la propiedad, envía `https://catalinacobap-mauve.vercel.app/sitemap.xml` y solicita indexación para `/`, `/new-website/`, `/full-redesign/`, `/maintenance/` y `/custom-quote/`.
 3. Añade el mismo sitio en [Bing Webmaster Tools](https://www.bing.com/webmasters/) y envía allí el sitemap.
-4. El dominio canónico de producción es `https://catalinacobap.com`. Si cambia en el futuro, reemplázalo en `src/seo.js`, `public/robots.txt`, `public/sitemap.xml`, `public/llms.txt` y este README antes de publicar.
+4. El dominio canónico de producción es `https://www.catalinacobap.com`. Si cambia en el futuro, reemplázalo en `src/seo.js`, `public/robots.txt`, `public/sitemap.xml`, `public/llms.txt` y este README antes de publicar.
 
 Español es la URL por defecto e inglés vive en `?lang=en`; el sitio genera canonicales y `hreflang` para ambas versiones. Mantén las descripciones visibles, precios, proyectos y datos de contacto consistentes con el JSON-LD para que buscadores y sistemas de IA reciban los mismos hechos.
 

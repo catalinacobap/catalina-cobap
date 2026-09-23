@@ -1,4 +1,4 @@
-export const siteUrl = 'https://catalinacobap.com';
+export const siteUrl = 'https://www.catalinacobap.com';
 
 export function pagePath(page = '', language = 'es') {
   const path = page ? `/${page}/` : '/';

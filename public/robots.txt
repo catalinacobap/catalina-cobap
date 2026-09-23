@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://catalinacobap.com/sitemap.xml
+Sitemap: https://www.catalinacobap.com/sitemap.xml
