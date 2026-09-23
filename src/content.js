@@ -1,5 +1,5 @@
 export const links = {
-  email: 'catalinaciphone@gmail.com',
+  email: 'catalinacobap@gmail.com',
   linkedin: 'https://www.linkedin.com/in/catalina-cobaleda-060650303/',
   upwork: 'https://www.upwork.com/freelancers/~01a71bea1473cd1a4d',
 };
@@ -100,7 +100,7 @@ export const content = {
   contact: '¿Necesitas un sitio nuevo o reemplazar el que tienes?',
   contactSub: 'Envíame un mensaje con lo que tienes en mente.',
   name: 'Nombre', email: 'Correo', need: '¿Qué necesitas?', needs: ['Sitio nuevo', 'Rediseño', 'Todavía no sé'], website: 'Sitio actual (opcional)', message: 'Cuéntame sobre el proyecto',
-  send: 'Enviar mensaje', sending: 'Enviando…', success: 'Mensaje enviado. Te respondo a tu correo.', error: 'No se pudo enviar el mensaje. Intenta de nuevo o escríbeme a catalinaciphone@gmail.com.',
+  send: 'Enviar mensaje', sending: 'Enviando…', success: 'Mensaje enviado. Te respondo a tu correo.', error: 'No se pudo enviar el mensaje. Intenta de nuevo o escríbeme a catalinacobap@gmail.com.',
   prefer: '¿Prefieres correo?', back: 'Volver arriba', contactLabel: 'Empecemos por una conversación',
   sectionLabels: ['Trabajo seleccionado', 'Reseñas', 'Para quién', 'Por dónde empezar', 'La inversión', 'Mantenimiento', 'El proceso', 'Sobre mí', 'Antes de empezar', 'Tu próximo sitio'],
   prev: 'Proyecto anterior', next: 'Proyecto siguiente', screenshot: 'Vista del sitio de',
@@ -186,7 +186,7 @@ export const content = {
   ],
   contact: 'Have a website you need built or replaced?', contactSub: 'Send me a message with what you have in mind.',
   name: 'Name', email: 'Email', need: 'What do you need?', needs: ['New website', 'Redesign', 'Not sure yet'], website: 'Current website (optional)', message: 'Tell me about the project',
-  send: 'Send message', sending: 'Sending…', success: 'Message sent. I’ll reply to your email.', error: 'Your message didn’t go through. Try again or write me at catalinaciphone@gmail.com.',
+  send: 'Send message', sending: 'Sending…', success: 'Message sent. I’ll reply to your email.', error: 'Your message didn’t go through. Try again or write me at catalinacobap@gmail.com.',
   prefer: 'Prefer email?', back: 'Back to top', contactLabel: 'Let’s start with a conversation',
   sectionLabels: ['Selected work', 'Reviews', 'Who it’s for', 'Where to start', 'The investment', 'Maintenance', 'The process', 'About me', 'Before we start', 'Your next website'],
   prev: 'Previous project', next: 'Next project', screenshot: 'Website preview for',

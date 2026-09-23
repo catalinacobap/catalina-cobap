@@ -39,7 +39,7 @@ export default async function contact(req, res) {
    headers:{Authorization:`Bearer ${process.env.RESEND_API_KEY}`,'Content-Type':'application/json'},
    body:JSON.stringify({
     from:process.env.CONTACT_FROM_EMAIL,
-    to:['catalinaciphone@gmail.com'],
+    to:['catalinacobap@gmail.com'],
     reply_to:email.trim(),
     subject:`Consulta web: ${needs[need]}`,
     text:`Nombre: ${name.trim()}\nCorreo: ${email.trim()}\nNecesita: ${needs[need]}\nSitio actual: ${website || 'No indicado'}\nIdioma: ${language}\n\n${message.trim()}`,

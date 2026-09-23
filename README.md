@@ -20,14 +20,14 @@ No se incluyeron los datos pendientes entre corchetes: ni el plazo de respuesta 
 
 ## Contacto
 
-El formulario hace POST a `/api/contact`. La función valida datos y usa Resend para enviar a `catalinaciphone@gmail.com`, con el correo del visitante como Reply-To. Se informa éxito solo cuando el proveedor acepta el mensaje. No se envían correos durante las pruebas.
+El formulario hace POST a `/api/contact`. La función valida datos y usa Resend para enviar a `catalinacobap@gmail.com`, con el correo del visitante como Reply-To. Se informa éxito solo cuando el proveedor acepta el mensaje. No se envían correos durante las pruebas.
 
 Para activar el envío, configurar en Vercel (Production, Preview y Development si quieres probar en todos los entornos):
 
 - `RESEND_API_KEY`: copia el valor secreto de una API key creada en Resend. Empieza por `re_`; no lo publiques ni lo pongas en variables `VITE_`.
 - `CONTACT_FROM_EMAIL`: para una primera prueba usa `Catalina Cobap <onboarding@resend.dev>`. En producción usa una dirección de un dominio verificado en Resend, por ejemplo `Catalina Cobap <hola@tudominio.com>`.
 
-El destinatario no se configura en Vercel: está fijado en el servidor como `catalinaciphone@gmail.com`. El correo que escribe la persona se envía como `Reply-To`, por lo que puedes responderle directamente desde Gmail.
+El destinatario no se configura en Vercel: está fijado en el servidor como `catalinacobap@gmail.com`. El correo que escribe la persona se envía como `Reply-To`, por lo que puedes responderle directamente desde Gmail.
 
 Sin estas variables, el endpoint devuelve 503 y el formulario ofrece el mensaje de error y el correo directo. No simula envíos ni guarda consultas. El enlace mailto funciona independientemente del formulario. Las credenciales se usan solo en servidor.
 
