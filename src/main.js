@@ -1,6 +1,7 @@
 import './style.css';
 import { content, links, projects, reviews } from './content.js';
 import { pageKeys, pageCopy } from './pages.js';
+import { updateSeo } from './seo.js';
 
 const app = document.querySelector('#app');
 const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
@@ -28,11 +29,7 @@ function render() {
  const kicker = (index) => `<p class="label kicker">${number(index + 1)} / ${t.sectionLabels[index]}</p>`;
  const title = isServicePage ? `${page.name} — Catalina Cobap` : t.title;
  const description = isServicePage ? page.intro : short.sub;
- document.documentElement.lang = language;
- document.title = title;
- document.querySelector('meta[name="description"]').content = description;
- document.querySelector('meta[property="og:title"]').content = title;
- document.querySelector('meta[property="og:description"]').content = description;
+ updateSeo({page: currentPage, language, title, description, pageInfo: page, personEmail: links.email, links, projects});
  const navigation = ` <nav class="navigation" aria-label="${t.menu}">
    <a class="nav-mark" href="${homeUrl()}#inicio" aria-label="Catalina Cobap">Catalina <em>Cobap</em></a>
    <div class="nav-links"><a href="${homeUrl()}#${id('work')}">${t.nav[0]}</a><a href="${homeUrl()}#${id('pricing')}">${short.services}</a><a href="${homeUrl()}#${id('about')}">${t.nav[3]}</a><a href="${pageUrl('custom-quote')}">${t.nav[4]}</a></div>

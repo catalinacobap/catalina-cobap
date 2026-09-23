@@ -37,6 +37,19 @@ Referencias: [Resend Send Email](https://resend.com/docs/api-reference/emails/se
 
 `vercel.json` configura Vite y la salida `dist/`; Vercel publica la función de `api/`. No se ha desplegado este proyecto ni modificado el sitio público existente. Un hosting puramente estático sirve las páginas, pero necesita implementar el endpoint para enviar el formulario.
 
+## SEO e indexación
+
+El build publica `robots.txt`, `sitemap.xml`, URLs directas para cada servicio, canonicales, enlaces `hreflang` y JSON-LD para Catalina, el negocio, los servicios y las migas de navegación. También publica `llms.txt` como referencia breve para rastreadores y sistemas de respuestas. Esto mejora el descubrimiento y la interpretación, pero no garantiza posiciones ni citas en resultados de IA.
+
+Después del primer deploy de producción:
+
+1. Añade la URL pública como **Domain property** en [Google Search Console](https://search.google.com/search-console).
+2. Verifica la propiedad, envía `https://catalinacobap-mauve.vercel.app/sitemap.xml` y solicita indexación para `/`, `/new-website/`, `/full-redesign/`, `/maintenance/` y `/custom-quote/`.
+3. Añade el mismo sitio en [Bing Webmaster Tools](https://www.bing.com/webmasters/) y envía allí el sitemap.
+4. Si conectas un dominio propio, reemplaza `https://catalinacobap-mauve.vercel.app` en `src/seo.js`, `public/robots.txt`, `public/sitemap.xml`, `public/llms.txt` y este README antes de publicar. El canonical siempre debe ser el dominio público real.
+
+Español es la URL por defecto e inglés vive en `?lang=en`; el sitio genera canonicales y `hreflang` para ambas versiones. Mantén las descripciones visibles, precios, proyectos y datos de contacto consistentes con el JSON-LD para que buscadores y sistemas de IA reciban los mismos hechos.
+
 ## Páginas de servicios
 
 La portada resume presentación, proyectos, reseñas, servicios, bio y contacto. Las reseñas se conservan completas.

@@ -1,0 +1,24 @@
+# Catalina Cobap
+
+Catalina Cobap is a Costa Rica-based web designer and developer. She designs and builds websites for businesses and independent professionals, in Spanish or English, from first idea to launch.
+
+## Services
+
+- New websites: from $1,000 USD.
+- Full website redesigns: from $1,000 USD, rebuilt from scratch around the current business.
+- Website maintenance: $40 USD/month or $400 USD/year, including hosting and up to one hour of monthly text and image updates.
+- Free custom quotes for projects outside these services.
+
+## Useful pages
+
+- Home: https://catalinacobap-mauve.vercel.app/
+- New website: https://catalinacobap-mauve.vercel.app/new-website/
+- Full redesign: https://catalinacobap-mauve.vercel.app/full-redesign/
+- Maintenance: https://catalinacobap-mauve.vercel.app/maintenance/
+- Custom quote: https://catalinacobap-mauve.vercel.app/custom-quote/
+
+## Contact
+
+Email: catalinacobap@gmail.com
+LinkedIn: https://www.linkedin.com/in/catalina-cobaleda-060650303/
+Upwork: https://www.upwork.com/freelancers/~01a71bea1473cd1a4d
