@@ -1,0 +1,41 @@
+export const pageKeys = ['new-website', 'full-redesign', 'maintenance', 'custom-quote'];
+export const pageCopy = {
+ es: {
+  home: 'Inicio', services: 'Servicios', details: 'Ver detalles', back: 'Volver al inicio',
+  statement: 'DISEÑO SITIOS <em class="circled">CON CARÁCTER</em><br />PARA NEGOCIOS QUE QUIEREN<br />UNA PRESENCIA TAN PROPIA<br />COMO SU <em>HISTORIA.</em>',
+  viewServices: 'Ver servicios',
+  hero: 'Tu sitio web.<br /><em>De la idea al lanzamiento.</em>',
+  sub: 'Diseño y desarrollo por Catalina Cobap. En español o inglés, en alrededor de semana y media.',
+  bio: 'Soy diseñadora y desarrolladora en Costa Rica y cofundadora de Baileyscode. Me encargo de tu sitio de principio a fin: un solo contacto, del diseño al lanzamiento.',
+  contact: '¿Creamos tu próximo sitio?', contactSub: 'Cuéntame qué tienes en mente.',
+  includes: 'Qué incluye', prepare: 'Qué necesito de ti', limits: 'Alcance y condiciones',
+  startingAt: 'A partir de', investment: 'La inversión', priceNote: 'Cada proyecto tiene su propio alcance. Te envío una propuesta con el precio final antes de empezar.', approach: 'Un sitio pensado para tu negocio',
+  more: '¿Necesitas algo diferente?', stepTitle: 'Así trabajamos',
+  steps: ['Definimos alcance y precio.', 'Elegimos la dirección visual.', 'Diseño y desarrollo tu sitio.', 'Revisamos y publicamos.'],
+  pages: {
+   'new-website': {title: 'Tu primer sitio.<br /><em>Bien hecho.</em>', name: 'Sitio nuevo', explanation: 'Parto de tu identidad visual y de lo que tu negocio necesita comunicar. Diseño y construyo tu sitio desde cero, con una estructura clara, textos propios y una experiencia que se sienta tuya.', technology: 'Elijo la tecnología según el tipo de proyecto, para que diseño y funcionamiento respondan a tus necesidades.', intro: 'Para negocios y profesionales que necesitan una presencia en línea a su altura.', cta: 'Quiero mi sitio', note: 'Diseño, textos y desarrollo. Todo con una sola persona.'},
+   'full-redesign': {title: 'Tu negocio cambió.<br /><em>Tu sitio también.</em>', name: 'Rediseño completo', explanation: 'Tomo tu identidad visual y reconstruyo tu sitio desde cero. Replanteo la estructura, los textos y el diseño para que representen el negocio que tienes hoy.', technology: 'Elijo la tecnología que mejor se adapte al tipo de proyecto. El resultado es un sitio nuevo, pensado para tu marca y tus objetivos.', intro: 'Reconstruyo tu sitio desde cero para que vuelva a representar tu negocio.', cta: 'Quiero rediseñar mi sitio', note: 'Una nueva estructura, diseño y tecnología elegida para tu proyecto.'},
+   maintenance: {title: 'Tu sitio, al día.<br /><em>Sin ocuparte de todo.</em>', name: 'Plan de mantenimiento', intro: 'Hosting y pequeños cambios para que puedas concentrarte en tu negocio.', cta: 'Quiero el plan', note: 'Un poco de cuidado, cada mes.'},
+   'custom-quote': {title: 'Hablemos de tu idea.<br /><em>Hagámosla realidad.</em>', name: 'Cotización personalizada gratis', intro: 'Cuéntame lo que necesitas. Te propongo un alcance y un precio, sin compromiso.', cta: 'Cuéntame tu proyecto', note: 'Empecemos por una conversación.'},
+  },
+ },
+ en: {
+  home: 'Home', services: 'Services', details: 'View details', back: 'Back to home',
+  statement: 'I CREATE WEBSITES <em class="circled">WITH CHARACTER</em><br />FOR BUSINESSES THAT WANT<br />AN ONLINE PRESENCE AS DISTINCT<br />AS THEIR <em>STORY.</em>',
+  viewServices: 'View services',
+  hero: 'Your website.<br /><em>From idea to launch.</em>',
+  sub: 'Designed and built by Catalina Cobap. In English or Spanish, live in about a week and a half.',
+  bio: 'I’m a Costa Rica-based designer, developer, and co-founder of Baileyscode. I handle your website from start to finish: one person, from design to launch.',
+  contact: 'Let’s build your next website.', contactSub: 'Tell me what you have in mind.',
+  includes: 'What’s included', prepare: 'What I need from you', limits: 'Scope and conditions',
+  startingAt: 'Starting at', investment: 'The investment', priceNote: 'Every project has its own scope. You’ll receive a proposal with the final price before we begin.', approach: 'A website built around your business',
+  more: 'Need something different?', stepTitle: 'How we work',
+  steps: ['Agree on scope and price.', 'Choose the visual direction.', 'Design and build your site.', 'Review and launch.'],
+  pages: {
+   'new-website': {title: 'Your first website.<br /><em>Done right.</em>', name: 'New website', explanation: 'I start with your visual identity and what your business needs to communicate. Then I design and build your website from scratch, with clear structure, original copy, and an experience that feels like you.', technology: 'I choose the technology to suit the project, so the design and functionality work for your business.', intro: 'For businesses and independent professionals ready for a proper online presence.', cta: 'Let’s build my website', note: 'Design, copy, and development. One point of contact.'},
+   'full-redesign': {title: 'Your business evolved.<br /><em>Your site should too.</em>', name: 'Full redesign', explanation: 'I take your visual identity and rebuild your website from scratch. I rethink the structure, copy, and design to reflect the business you have today.', technology: 'I choose the technology that best fits your project. The result is a new website shaped around your brand and your goals.', intro: 'Your current site rebuilt from scratch to reflect the business you have today.', cta: 'Let’s redesign my website', note: 'A fresh structure, design, and technology chosen for your project.'},
+   maintenance: {title: 'Your site, cared for.<br /><em>One less thing to do.</em>', name: 'Maintenance plan', intro: 'Hosting and small updates, so you can focus on your business.', cta: 'Get the maintenance plan', note: 'A little care, every month.'},
+   'custom-quote': {title: 'Let’s talk about your idea.<br /><em>And bring it to life.</em>', name: 'Free custom quote', intro: 'Tell me what you need. I’ll put together a scope and price, with no obligation.', cta: 'Tell me about your project', note: 'Let’s start with a conversation.'},
+  },
+ },
+};
