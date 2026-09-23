@@ -11,11 +11,11 @@ Catalina Cobap is a Costa Rica-based web designer and developer. She designs and
 
 ## Useful pages
 
-- Home: https://catalinacobap-mauve.vercel.app/
-- New website: https://catalinacobap-mauve.vercel.app/new-website/
-- Full redesign: https://catalinacobap-mauve.vercel.app/full-redesign/
-- Maintenance: https://catalinacobap-mauve.vercel.app/maintenance/
-- Custom quote: https://catalinacobap-mauve.vercel.app/custom-quote/
+- Home: https://catalinacobap.com/
+- New website: https://catalinacobap.com/new-website/
+- Full redesign: https://catalinacobap.com/full-redesign/
+- Maintenance: https://catalinacobap.com/maintenance/
+- Custom quote: https://catalinacobap.com/custom-quote/
 
 ## Contact
 

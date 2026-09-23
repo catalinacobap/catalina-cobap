@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://catalinacobap-mauve.vercel.app/sitemap.xml
+Sitemap: https://catalinacobap.com/sitemap.xml

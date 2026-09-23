@@ -1,4 +1,4 @@
-export const siteUrl = 'https://catalinacobap-mauve.vercel.app';
+export const siteUrl = 'https://catalinacobap.com';
 
 export function pagePath(page = '', language = 'es') {
   const path = page ? `/${page}/` : '/';
