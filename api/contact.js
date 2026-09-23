@@ -46,11 +46,18 @@ export default async function contact(req, res) {
    }),
    signal:AbortSignal.timeout(15000),
   });
-  if (!response.ok) return respond(res,502,{ok:false});
-  const result = await response.json();
-  if (!result.id) return respond(res,502,{ok:false});
+  const result = await response.json().catch(() => ({}));
+  if (!response.ok) {
+   console.error('Resend rejected contact email', { status: response.status, message: result?.message, name: result?.name });
+   return respond(res,502,{ok:false});
+  }
+  if (!result.id) {
+   console.error('Resend returned no email id');
+   return respond(res,502,{ok:false});
+  }
   return respond(res,200,{ok:true});
  } catch (error) {
+  console.error('Contact email request failed', { message: error instanceof Error ? error.message : 'Unknown error' });
   return respond(res,error instanceof SyntaxError ? 400 : 502,{ok:false});
  }
 }
