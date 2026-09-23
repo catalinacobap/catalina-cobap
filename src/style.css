@@ -209,15 +209,16 @@ section{scroll-margin-top:calc(var(--navigation-height) + 20px)}
 .service-practical .editorial-list{margin-top:15px}
 .service-practical details p{margin-top:15px}
 @media(max-width:700px){
- .editorial-statement h2{font-size:clamp(32px,8vw,50px);line-height:1.25}
+ .editorial-statement{padding-top:95px;padding-bottom:95px}
+ .editorial-statement h2{font-size:clamp(34px,8.7vw,54px);line-height:1.23}
  .editorial-statement .text-link{font-size:20px}
  .navigation{min-height:88px;padding-top:5px;padding-bottom:5px}
  .nav-mark{font-size:22px}
  .nav-links{gap:8px;font-size:10px}
  .hero{min-height:auto}
- .hero-copy{min-height:auto;padding-top:58px;padding-bottom:62px;align-items:flex-start}
+ .hero-copy{min-height:auto;padding-top:58px;padding-bottom:94px;align-items:flex-start}
  .hero-message{padding:0}
- .hero h1{font-size:clamp(46px,11.5vw,74px);line-height:1.04}
+ .hero h1{font-size:clamp(52px,13vw,84px);line-height:1.02}
  .hero-copy{padding-bottom:28px}
  .hero-copy{min-height:calc(100svh - var(--navigation-height))}
  .hero-copy{display:flex;gap:0;align-items:center}
@@ -225,7 +226,7 @@ section{scroll-margin-top:calc(var(--navigation-height) + 20px)}
  .hero-cherry{top:1%;left:5%;font-size:38px}
  .hero-chat{top:3%;right:7%;width:65px;height:42px}
  .hero-chat i{width:5px;height:5px}
- .hero-note{left:3%;bottom:2%;max-width:190px;font-size:7px;padding:9px 10px}
+ .hero-note{left:3%;bottom:6%;max-width:190px;font-size:7px;padding:9px 10px}
  .service-story.section{padding-top:60px;padding-bottom:65px}
  .service-explanation{margin-top:25px}
  .service-explanation p{font-size:20px!important}
