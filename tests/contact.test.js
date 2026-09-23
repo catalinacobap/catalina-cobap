@@ -27,7 +27,7 @@ test('contact validates requests and only reports success after provider accepta
   globalThis.fetch=async (url, options)=>{sent=JSON.parse(options.body);return {ok:true,json:async()=>({id:'mock-id'})}};
   assert.deepEqual(await request(valid),{status:200,body:{ok:true}});
   assert.equal(sent.reply_to,valid.email);
-  assert.deepEqual(sent.to,['catalinacobap@gmail.com']);
+  assert.deepEqual(sent.to,['catalinaciphone@gmail.com']);
   globalThis.fetch=async()=>({ok:false});
   assert.equal((await request(valid)).status,502);
   globalThis.fetch=async()=>{throw Error('timeout')};
