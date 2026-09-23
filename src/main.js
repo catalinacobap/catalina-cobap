@@ -39,10 +39,10 @@ function render() {
  <a class="skip-link" href="#main">${t.skip}</a>
  ${navigation}
  ${isServicePage ? '' : ` <header class="hero" id="inicio">
-   <div class="hero-copy"><div class="hero-message"><p class="label hero-eyebrow">${t.eyebrow}</p><h1>${short.hero}</h1><p class="hero-sub">${short.sub}</p><a class="outline-button" href="${pageUrl('custom-quote')}">${t.cta}</a></div><aside class="hero-ornament" aria-hidden="true"><div class="hero-monogram">CC<span>.</span></div><p class="label">${language === 'es' ? 'DISEÑO · DESARROLLO · DIRECCIÓN' : 'DESIGN · DEVELOPMENT · DIRECTION'}</p></aside></div>
+   <div class="hero-copy"><div class="hero-message"><p class="label hero-eyebrow">${t.eyebrow}</p><h1>${short.hero}</h1><p class="hero-sub">${short.sub}</p><a class="outline-button" href="${pageUrl('custom-quote')}">${t.cta}</a></div><aside class="hero-ornament" aria-hidden="true"><span class="hero-cherry">🍒</span><span class="hero-chat"><i></i><i></i><i></i></span><span class="hero-note">${language === 'es' ? 'SITIOS CLAROS / NEGOCIOS QUE AVANZAN' : 'CLEAR WEBSITES / BUSINESSES THAT MOVE FORWARD'}</span></aside></div>
  </header>`}
  <main id="main">
- ${isServicePage ? servicePage(t, short, page) : `<section class="editorial-statement section bone"><h2 class="reveal">${short.statement}</h2><a class="text-link" href="#${id('pricing')}">${short.viewServices}</a></section>
+ ${isServicePage ? servicePage(t, short, page) : `<section class="editorial-statement section forest"><h2 class="reveal">${short.statement}</h2><a class="text-link" href="#${id('pricing')}">${short.viewServices}</a></section>
    <section class="work section bone" id="${id('work')}">
      <div class="section-heading reveal"><div>${kicker(0)}<h2>${t.work}</h2></div><p>${t.workSub}</p></div>
      <div class="work-grid" aria-label="${t.work}">${projects.map((project, index) => `<article class="project"><a class="project-image" href="${project.url}" ${external} aria-label="${t.visit}: ${project.name}"><img src="/images/work-${project.image}.jpg" alt="${t.screenshot} ${project.name}" loading="lazy" width="1440" height="1050" /><span class="project-open">${t.visit}</span></a><div class="project-meta"><span class="project-number">${number(index + 1)}</span><div><p class="label">${t.projectCopy[index][0]}</p><h3><a href="${project.url}" ${external}>${project.name}</a></h3><a class="project-domain label" href="${project.url}" ${external}>${new URL(project.url).hostname}</a></div></div></article>`).join('')}</div>
