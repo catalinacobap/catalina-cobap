@@ -228,7 +228,7 @@ section{scroll-margin-top:calc(var(--navigation-height) + 20px)}
  .hero-cherry{top:1%;left:5%;font-size:38px}
  .hero-chat{top:3%;right:7%;width:65px;height:42px}
  .hero-chat i{width:5px;height:5px}
- .hero-note{left:3%;bottom:2%;max-width:250px;width:57%;font-size:9px;line-height:1.35;padding:13px 15px}
+ .hero-note{display:none}
  .service-story.section{padding-top:60px;padding-bottom:65px}
  .service-explanation{margin-top:25px}
  .service-explanation p{font-size:20px!important}
