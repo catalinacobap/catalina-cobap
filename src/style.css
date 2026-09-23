@@ -173,6 +173,11 @@ section{scroll-margin-top:calc(var(--navigation-height) + 20px)}
 /* The entire hero contrasts with the following paper section, without caption strips. */
 .hero{display:block;min-height:calc(100svh - var(--navigation-height));background:var(--forest);color:var(--cream)}
 .hero-copy{min-height:calc(100svh - var(--navigation-height));max-width:1500px}
+.hero-copy{display:grid;grid-template-columns:minmax(0,1fr) minmax(280px,.62fr);align-items:center;gap:7vw}
+.hero-ornament{position:relative;min-height:420px;display:flex;flex-direction:column;justify-content:space-between;padding:18px 0 24px 10px;border-left:1px solid #f5f3ee55}
+.hero-monogram{font-family:var(--display);font-size:clamp(150px,18vw,300px);line-height:.8;letter-spacing:-.12em;color:#f5f3ee18}
+.hero-monogram span{color:var(--cream);font-size:.5em;letter-spacing:0}
+.hero-ornament>.label{font-size:10px;max-width:190px}
 .hero-copy{padding-bottom:clamp(28px,5vh,65px)}
 /* Service narrative precedes one starting price; whitespace replaces table rules. */
 .service-story.section{padding-top:95px;padding-bottom:100px}
@@ -195,6 +200,10 @@ section{scroll-margin-top:calc(var(--navigation-height) + 20px)}
 @media(max-width:700px){
  .hero-copy{padding-bottom:28px}
  .hero-copy{min-height:calc(100svh - var(--navigation-height))}
+ .hero-copy{display:flex;gap:0;align-items:stretch}
+ .hero-ornament{min-height:145px;margin-top:22px;padding:15px 0 0;border-left:0;border-top:1px solid #f5f3ee55;display:block}
+ .hero-monogram{font-size:105px;line-height:.75}
+ .hero-ornament>.label{position:absolute;right:0;top:20px;text-align:right;font-size:8px}
  .service-story.section{padding-top:60px;padding-bottom:65px}
  .service-explanation{margin-top:25px}
  .service-explanation p{font-size:20px!important}
